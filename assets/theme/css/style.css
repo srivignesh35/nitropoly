@@ -78,7 +78,7 @@ section {
 /*! Base colors */
 .mbr-white {
   color: #ffffff;
-  top:360px;
+  top:250px;
   text-align: center;
 }
 
@@ -308,6 +308,9 @@ nav .mbr-section-btn {
   transition: all .3s ease-in-out;
   cursor: pointer;
   text-align: center; }
+
+
+
   .mbr-arrow-up a:hover {
     background-color: rgba(0, 0, 0, 0.4); }
   .mbr-arrow-up a i {

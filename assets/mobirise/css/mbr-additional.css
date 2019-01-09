@@ -312,22 +312,22 @@ body {
 .btn-primary-outline,
 .btn-primary-outline:active {
   background: none;
-  border-color: #0b566f;
-  color: #0b566f;
+  border-color: #212529;
+  color: #212529;
 }
 .btn-primary-outline:hover,
 .btn-primary-outline:focus,
 .btn-primary-outline.focus,
 .btn-primary-outline.active {
   color: #ffffff;
-  background-color: #149dcc;
-  border-color: #149dcc;
+  background-color: #212529;
+  border-color: #212529;
 }
 .btn-primary-outline.disabled,
 .btn-primary-outline:disabled {
   color: #ffffff !important;
-  background-color: #149dcc !important;
-  border-color: #149dcc !important;
+  background-color: #212529 !important;
+  border-color: #212529 !important;
 }
 .btn-secondary-outline,
 .btn-secondary-outline:active {
@@ -778,7 +778,7 @@ pre {
   text-align: center;
   position: relative;
   border: 2px solid #c0a375;
-  border-color: #149dcc;
+  border-color: #212529;
   color: #232323;
   cursor: pointer;
 }
@@ -789,7 +789,7 @@ pre {
 }
 .btn-social:hover {
   color: #fff;
-  background: #149dcc;
+  background: #212529;
 }
 .btn-social + .btn {
   margin-left: .1rem;
@@ -797,11 +797,11 @@ pre {
 /* Footer */
 .mbr-footer-content li::before,
 .mbr-footer .mbr-contacts li::before {
-  background: #149dcc;
+  background: #212529;
 }
 .mbr-footer-content li a:hover,
 .mbr-footer .mbr-contacts li a:hover {
-  color: #149dcc;
+  color: #212529;
 }
 .footer3 input[type="email"],
 .footer4 input[type="email"] {
@@ -1411,6 +1411,21 @@ body {
 .cid-rdx1BwMkWp .mbr-slider .modal-body .close {
   background: #1b1b1b;
 }
+
+.cid-rdx1BwMkWp .mbr-gallery-item img
+{
+  transition: .5s ease-in-out;
+  border-radius: 5px;
+}
+
+.cid-rdx1BwMkWp .mbr-gallery-item img:hover
+{
+  /* transform:scale(1.03); */
+  /* box-shadow: #555555 0 0 10px 3px; */
+  /* border: solid #357afd 5px; */
+  
+}
+
 .cid-rdx1BwMkWp .mbr-gallery-item > div::before {
   content: '';
   position: absolute;
@@ -1418,8 +1433,10 @@ body {
   top: 0;
   width: 100%;
   height: 100%;
-  background: #554346;
-  opacity: 0;
+  background: #212529;
+  /* background: #149dcc; */
+  opacity: 1;
+  
   -webkit-transition: 0.2s opacity ease-in-out;
   transition: 0.2s opacity ease-in-out;
 }
@@ -1427,7 +1444,8 @@ body {
   background: transparent !important;
 }
 .cid-rdx1BwMkWp .mbr-gallery-item > div:hover:before {
-  opacity: 0.7 !important;
+  opacity: 0.9 !important;
+  
 }
 .cid-rdx1BwMkWp .mbr-gallery-title {
   font-size: .9em;
@@ -1447,8 +1465,8 @@ body {
   left: 0;
   z-index: -1;
   position: absolute;
-  background: #554346 !important;
-  opacity: 0.7;
+  background: #212529 !important;
+  opacity: 0;
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
 }
@@ -1491,7 +1509,7 @@ body {
   line-height: 40px;
   transition: all .2s;
   color: #ffffff;
-  background: #149dcc;
+  background: #212529;
   width: 40px;
   height: 40px;
   border-radius: 50%;
